@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Proto IFC Viewer</title>
+  </head>
+  <body>
+      <div id="button-container">
+          <input type="file" name="load" id="file-input" />
+          <input type="button" id="memory-button" value="Release memory">
+      </div>
+    <div class="message-container">
+        <p class="message">Properties:</p>
+        <pre class="message" id="id-output">None</pre>
+    </div>
+    <div id="viewer-container"></div>
+    
+    <div class="checkboxes">
+        <div>
+            <input checked="true" id="IFCWALLSTANDARDCASE" type="checkbox">
+            Walls
+        </div>
+        <div>
+            <input checked="true" id="IFCSLAB" type="checkbox">
+            Slabs
+        </div>
+        <div>
+            <input checked="true" id="IFCWINDOW" type="checkbox">
+            Windows
+        </div>
+        <div>
+            <input checked="true" id="IFCFURNISHINGELEMENT" type="checkbox">
+            Furniture
+        </div>
+        <div>
+            <input checked="true" id="IFCDOOR" type="checkbox">
+            Doors
+        </div>
+        <div>
+            <input checked="true" id="IFCMEMBER" type="checkbox">
+            Curtain wall structure
+        </div>
+        <div>
+            <input checked="true" id="IFCPLATE" type="checkbox">
+            Curtain wall plates
+        </div>
+    </div>
+    
+    <script src="bundle.js"></script>
+  </body>
+</html>

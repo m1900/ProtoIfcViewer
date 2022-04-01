@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    overflow: hidden;
+  }
+  
+  #three-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+  }
+
+  #viewer-container {
+    position: relative;
+    width: 80vw;
+    height: 85vh;
+    overflow: hidden;
+    border: solid 1px #bbbbbb;
+    margin: 2rem;
+    margin-left: auto;
+    border-radius: 0.5rem;
+}
+  
+  #file-input {
+    z-index: 1;
+  }
+
+ .message-container {
+    z-index: 1;
+    position: absolute;
+    top: 240px;
+    margin: 16px;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    overflow: auto;
+    width: 33vw;
+    height: 100vh;
+}
+
+.message {
+    display: inline;
+    color: black;
+}
+
+.checkboxes {
+    position: absolute;
+    left: 1rem;
+    /* top: 1rem; */
+    top: 110px;
+}
+
+#button-container {
+  position: absolute;
+  /* top: 50px; */
+  z-index: 1;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 1rem;
+}
