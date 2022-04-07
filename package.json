@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "stats.js": "^0.17.0",    
+    "stats.js": "^0.17.0",
     "web-ifc-viewer": "^1.0.166"
   },
   "devDependencies": {
